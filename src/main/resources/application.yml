@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: MovieRecommendation
+
+#postgresql
+  datasource:
+    url: jdbc:postgresql://localhost:5432/moviedb
+    username: postgres
+    password: pgadmin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+

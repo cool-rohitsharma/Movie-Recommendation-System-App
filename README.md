@@ -24,7 +24,7 @@ The Movie Recommendation System is a Spring Boot application that allows users t
 ### Steps to Run
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/movie-recommendation.git
+   git clone https://github.com/cool-rohitsharma/Movie-Recommendation-System-App.git
    cd movie-recommendation
    ```
 2. Configure PostgreSQL in `application.properties`:
@@ -66,6 +66,8 @@ The Movie Recommendation System is a Spring Boot application that allows users t
 
 ## Future Enhancements
 - Improve the recommendation algorithm using deep learning.
+- Integrate validation and mapper functions
+- Add unit and functional tests cases 
 - Integrate a frontend for better user experience.
 - Implement authentication and user roles.
 

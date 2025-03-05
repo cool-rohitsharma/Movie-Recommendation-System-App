@@ -66,7 +66,8 @@ The Movie Recommendation System is a Spring Boot application that allows users t
 
 ## Future Enhancements
 - Improve the recommendation algorithm using deep learning.
-- Integrate validation and mapper functions
+- Integrate DTO, validation and mapper functions
+- Integrate exception handling mechanism
 - Add unit and functional tests cases 
 - Integrate a frontend for better user experience.
 - Implement authentication and user roles.

@@ -37,4 +37,8 @@ public class Movie implements BaseEntity<Long> {
     public double getAverageRating() {
         return ratings.isEmpty() ? 0.0 : ratings.stream().mapToDouble(Rating::getRating).average().orElse(0.0);
     }
+
+    public Long getMovieId() {
+        return this.id;
+    }
 }

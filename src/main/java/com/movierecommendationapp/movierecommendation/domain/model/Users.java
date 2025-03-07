@@ -13,4 +13,8 @@ public class Users implements BaseEntity<Long> {
     private Long id;
     private String name;
     private String email;
+
+    public Long getUserId(){
+        return this.getId();
+    }
 }
